@@ -1,4 +1,4 @@
-package second;
+package hw2;
 
 import java.util.Scanner;
 

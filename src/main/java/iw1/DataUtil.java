@@ -1,4 +1,4 @@
-package third;
+package iw1;
 
 import java.util.Scanner;
 

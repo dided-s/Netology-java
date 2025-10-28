@@ -38,16 +38,16 @@ public class Main {
                     System.out.print("Введите ключевое слово: ");
                     String word = scanner.nextLine();
 
-                    int bookCount = 0;
+                    int bookMatchesCount = 0;
                     for (int i = 0; i < books.length; i++) {
                         if (books[i].matches(word)) {
-                            bookCount++;
+                            bookMatchesCount++;
                             System.out.println("Номер книги: " + i + ". " + books[i].getInfo());
                         }
                     }
 
-                    if (bookCount == 0) {
-                        System.out.println("Мы не нашли книги по ключевому слову");
+                    if (bookMatchesCount == 0) {
+                        System.out.println("Мы не нашли книги по переданному ключевому слову");
                     }
                     System.out.println("_________________");
 

@@ -3,6 +3,7 @@ package hw4;
 public class Book {
 
     public static int MIN_PRICE = 250;
+    public static int BIG_BOOK_PAGES = 500;
 
     public String title;
     public int releaseYear;
@@ -17,11 +18,14 @@ public class Book {
     }
 
     public boolean isBig() {
-        return pages > 500;
+        return pages > BIG_BOOK_PAGES;
     }
 
     public boolean matches(String word) {
-        return title.contains(word) || author.name.contains(word) || author.surname.contains(word);
+        word = word.toLowerCase();
+        return title.toLowerCase().contains(word) ||
+                author.name.toLowerCase().contains(word) ||
+                author.surname.toLowerCase().contains(word);
     }
 
     public int estimatePrice() {

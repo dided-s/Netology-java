@@ -1,4 +1,4 @@
-package hw5;
+package hw05;
 
 public class Main {
     public static final int SIZE = 8;

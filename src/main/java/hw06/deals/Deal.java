@@ -1,4 +1,4 @@
-package hw6.deals;
+package hw06.deals;
 
 public class Deal {
     private String comment;

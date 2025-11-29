@@ -1,10 +1,10 @@
-package hw6;
+package hw06;
 
-import hw6.deals.Deal;
-import hw6.deals.Expenditure;
-import hw6.deals.Sale;
-import hw6.taxes.SimplifiedIncomeMinusCreditTaxSystem;
-import hw6.taxes.SimplifiedTaxSystem;
+import hw06.deals.Deal;
+import hw06.deals.Expenditure;
+import hw06.deals.Sale;
+import hw06.taxes.SimplifiedIncomeMinusCreditTaxSystem;
+import hw06.taxes.SimplifiedTaxSystem;
 
 public class Main {
     public static void main(String[] args) {

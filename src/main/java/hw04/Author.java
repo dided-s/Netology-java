@@ -1,4 +1,4 @@
-package hw4;
+package hw04;
 
 public class Author {
     public String name;

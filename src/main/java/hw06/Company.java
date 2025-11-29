@@ -1,7 +1,7 @@
-package hw6;
+package hw06;
 
-import hw6.deals.Deal;
-import hw6.taxes.TaxSystem;
+import hw06.deals.Deal;
+import hw06.taxes.TaxSystem;
 
 public class Company {
     private String title;

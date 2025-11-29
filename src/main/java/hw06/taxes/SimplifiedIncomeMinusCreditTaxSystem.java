@@ -1,4 +1,4 @@
-package hw6.taxes;
+package hw06.taxes;
 
 public class SimplifiedIncomeMinusCreditTaxSystem extends TaxSystem {
 

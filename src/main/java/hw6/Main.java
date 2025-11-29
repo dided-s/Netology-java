@@ -11,8 +11,8 @@ public class Main {
         SimplifiedTaxSystem simplifiedTaxSystem = new SimplifiedTaxSystem();
         SimplifiedIncomeMinusCreditTaxSystem simplifiedIncomeMinusCreditTaxSystem = new SimplifiedIncomeMinusCreditTaxSystem();
 
-        Company dogCompany = new Company("ООО 'Щенята'", simplifiedTaxSystem);
-        Company catCompany = new Company("ООО 'Котята'", simplifiedIncomeMinusCreditTaxSystem);
+        Company dogCompany = new Company("'ООО Щенята'", simplifiedTaxSystem);
+        Company catCompany = new Company("'ООО Котята'", simplifiedIncomeMinusCreditTaxSystem);
 
         dogCompany.shiftMoney(100);
         dogCompany.shiftMoney(-50);

@@ -47,7 +47,7 @@ public class Company {
     }
 
     public void setTaxSystem(TaxSystem newTaxSystem) {
-        System.out.printf("Замена налоговой системы '%s' на '%s'\n", this.taxSystem, newTaxSystem);
+        System.out.printf("Замена для компании %s налоговой системы '%s' на '%s'\n", title, this.taxSystem, newTaxSystem);
         this.taxSystem = newTaxSystem;
     }
 }
